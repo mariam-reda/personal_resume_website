@@ -1,0 +1,116 @@
+header {
+    margin: 1rem;
+    padding-top: 0.5%;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: #fbd46d;
+    text-underline-position: under;
+    padding-bottom: 0.5%;
+}
+
+section {
+    margin: 2rem;
+    display: block;
+    width: fit-content;
+}
+
+
+h2 {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #fbd46d;
+    color: #008891;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;    
+}
+
+img:hover {                 /*transition to visually indicate clickable image (along with cursor change)*/
+    width: 120px;
+    height: 120px;
+}
+
+.eduName {
+    font-size: 18px;
+    background-color: #fbd46d;
+    font-weight: bold;
+    padding: 0.5%;
+    border-radius: 2rem;    
+}
+
+.eduName_link {
+    color: #222831;
+    text-decoration: none;
+}
+
+.eduName_link:hover {           /*color change to visually indicate to user clickable link (along with cursor change)*/
+    color: rgb(219, 35, 35);
+}
+
+.eduCertificate {
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #68c5c5;
+    margin-left: -1.25rem;
+    padding: 0.5%;
+    border-radius: 2rem;
+}
+
+table {
+    margin-left: 1rem;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+td {
+    padding: 1rem;
+}
+
+tr:hover {
+    background-color: #dddddd;
+}
+
+.eduImage_td {
+    padding-right: 4rem;
+    padding-left: 3rem;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.eduInfo_td {
+    width: 68%;
+    margin-right: 50%;
+}
+
+.eduTime_td {
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.achievements_list {
+    list-style: none;
+}
+
+
+li {
+    padding: 0.25rem;
+}
+
+li:hover {
+    color: #008891;
+    cursor: default;
+}
+
+.fa {
+    padding-right: 0.25rem;
+    margin-left: -1.5rem;
+}
+

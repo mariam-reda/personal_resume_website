@@ -1,0 +1,88 @@
+
+header {
+    margin: 1rem;
+    padding-top: 0.5%;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: #fbd46d;
+    text-underline-position: under;
+    padding-bottom: 0.5%;
+}
+
+
+section {
+    margin: 2rem;
+    display: block;
+    overflow:hidden;    /*stops the aside from going through this section when page shrinks*/
+    width: fit-content;
+    padding-right: 1rem;
+    margin-top: -0.5rem;
+}
+
+
+aside {
+    margin-right: 2rem;
+    padding-left: 2rem;
+    margin-top: -0.75rem;
+    display: block;
+    float: right;
+    width: 30%;
+    height: auto;
+}
+
+.details_aside {
+    font-size: 16px;
+    padding-bottom: -2%;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: #fbd46d;
+    text-underline-position: under;
+    color: #008891;
+}
+
+
+.openingLine {
+    text-decoration: none;
+    color: #222831;
+}
+
+.openingMajor {
+    background-color: #fbd46d;
+}
+
+p {
+    width: fit-content;
+}
+
+.detailTitle {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #008891;
+}
+
+ul {
+    list-style: none;
+    margin-left: -1.5rem;
+}
+
+li {
+    padding-bottom: 3%;
+}
+
+video {
+    height: auto;
+    min-width: 80%;
+    max-width: 80%;
+    padding-bottom: 7%;
+    padding-left: 3%;
+}
+
+footer {
+    clear: both;
+    margin-top: 7%;
+}

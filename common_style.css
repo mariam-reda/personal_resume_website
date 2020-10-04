@@ -1,0 +1,53 @@
+/* Color Scheme: https://colorhunt.co/palette/196018 */
+
+body {
+    background-color: #eeeeee;
+    color: #222831;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #222831;
+    border: solid #222831;
+    overflow: hidden;
+}
+
+nav a {                                  /*Nav bar items (links)*/
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e6e4e4;
+    text-decoration: none;
+}
+
+nav a.navName {
+    font-size: 20px;
+    padding-bottom: 0.75rem;
+}
+
+nav a.rightAlignedNav {
+    float: right;
+}
+
+.active {                               /*Used to display current page in nav bar*/
+    background-color: #fbd46d;
+    color: #222831;
+}
+
+nav a:hover {
+    background-color: #4f8a8b;
+}
+
+footer {
+    margin-top: 7%;
+}
+
+.copyright {                            /*Copyright statement in footer on bottom-right of page*/
+    text-align: left;
+    padding-left: 1rem;
+}
