@@ -5,7 +5,7 @@ header {
     text-align: center;
     margin: auto;
     width: fit-content;
-
+    width: -moz-fit-content; /*allows for correct display in mozilla firefox (only page with this issue)*/
 }
 
 h1 {
